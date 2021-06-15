@@ -1,0 +1,19 @@
+.Form {
+  padding: 1.5rem 2rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f5f4f6;
+}
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 620px) {
+  .Form {
+    margin-right: 0rem;
+    margin-top: 2rem;
+  }
+}

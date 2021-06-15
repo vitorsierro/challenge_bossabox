@@ -1,0 +1,28 @@
+.Container {
+  padding-left: 25rem;
+  margin-top: 4rem;
+}
+.TextoTitulo{
+  text-align: left;
+  font: normal normal 600 42px/50px Source Sans Pro;
+  letter-spacing: 0.84px;
+  color: #170C3A;
+  opacity: 1;
+}
+.TextoSubTitulo{
+  text-align: left;
+  font: normal normal 600 30px/36px Source Sans Pro;
+  letter-spacing: 0.6px;
+  color: #170C3A;
+  opacity: 1;
+}
+@media only screen and (max-width: 720px) { 
+  .Container {
+    padding-left: 2rem;
+  }
+}
+@media only screen and (max-width: 1025px){
+  .Container{
+    padding-left: 10rem;
+  }
+}

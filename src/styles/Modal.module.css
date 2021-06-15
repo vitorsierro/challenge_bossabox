@@ -1,0 +1,48 @@
+.Modal{
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background: rgba(157, 144, 184, 0.9);
+    -webkit-transition: all 0.5s 0.5s ease-in-out;
+    
+}
+.Form{
+    padding: 30px;
+    max-width: 630px;
+    min-width: 360px;
+    max-height: 85%;
+    overflow: auto;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    z-index: 2;
+    border-radius: 4px;
+    background: #fff;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+}
+
+.Remove{
+    display: none;
+}
